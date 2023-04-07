@@ -2,6 +2,6 @@
 
 ### Welcome !
 
-In this scenario we'll learn how to list all pods in the cluster.
+In this scenario we'll learn how to Install Argo CD
 
 **HAVE FUN**

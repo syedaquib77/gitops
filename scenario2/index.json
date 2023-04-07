@@ -1,22 +1,42 @@
 {
-    "title": "Kubernetes 1node",
-    "description": "Use a simple one node Kubernetes cluster and let user list all pods",
-    "details": {
-      "intro": {
-        "text": "intro.md"
-      },
-      "steps": [
-        {
-          "title": "List all pods",
-          "text": "step1.md"
-        }
-      ],
-      "finish": {
-        "text": "finish.md"
-      }
+  "title": "Working with Argo CD",
+  "description": "Learn to work with Argo CD",
+  "details": {
+    "intro": {
+      "text": "intro.md"
     },
-    "backend": {
-      "imageid": "kubernetes-kubeadm-1node"
+    "steps": [
+      {
+        "title": "Setting-Up Argo CD",
+        "text": "step1/step1.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Scale a deployment up",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Scale a deployment down",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Update a deployment",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Delete a deployment",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
     }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
   }
-  
+}
