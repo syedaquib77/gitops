@@ -12,8 +12,8 @@
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Scale a deployment up",
-        "text": "step2/text.md",
+        "title": "Access Web UI",
+        "text": "step2/step2.md",
         "verify": "step2/verify.sh"
       },
       {
